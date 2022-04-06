@@ -1,0 +1,12 @@
+{
+  "description": "Truncate the CRL issued by the Puppet CA",
+  "parameters": {
+    "ssldir": {
+      "description": "The location of the Puppet ssl dir",
+      "type": "Optional[String[1]]"
+    }
+  },
+  "implementations": [
+    {"name": "crl_truncate.sh", "requirements": ["shell"], "input_method": "environment"}
+  ]
+}

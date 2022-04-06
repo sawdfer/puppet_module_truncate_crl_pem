@@ -1,0 +1,59 @@
+{
+  "name": "m0dular-crl_truncate",
+  "version": "0.2.0",
+  "author": "Adrian Parreiras Horta",
+  "summary": "Truncate the CRL issued by the Puppet CA",
+  "license": "GPL-3.0-or-later",
+  "source": "https://github.com/m0dular/crl_truncate",
+  "project_page": "https://github.com/m0dular/crl_truncate",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "29"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "15"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.5.1 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.15.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#1.15.0",
+  "template-ref": "tags/1.15.0-0-g0bc522e"
+}
